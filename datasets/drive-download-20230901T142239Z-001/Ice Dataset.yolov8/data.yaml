@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['clear-road', 'iced-road']
+
+roboflow:
+  workspace: swacademy5
+  project: blackice-segmentation
+  version: 6
+  license: MIT
+  url: https://universe.roboflow.com/swacademy5/blackice-segmentation/dataset/6

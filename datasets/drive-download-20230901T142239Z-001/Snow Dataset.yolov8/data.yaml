@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Snow']
+
+roboflow:
+  workspace: detectron2-dhbdn
+  project: ex-blg53
+  version: 4
+  license: MIT
+  url: https://universe.roboflow.com/detectron2-dhbdn/ex-blg53/dataset/4
